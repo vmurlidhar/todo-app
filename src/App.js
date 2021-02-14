@@ -21,7 +21,6 @@ const App = () => {
   // I've already added currTask for you as an example of useState!
   const [currTask, setCurrTask] = useState("");
   // follow this example above & with the useState hook, create a variable called tasks. its default value is an empty array []
-  const [tasks, setTasks] = useState([]);
 
   /**
    * TODO: create a regular function called handleInput that takes in a parameter called event & updates currTask
